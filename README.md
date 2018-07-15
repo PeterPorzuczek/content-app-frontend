@@ -1,21 +1,19 @@
-# my-project
+Content app frontend
+========
+Frontend for content app. Content app aims at helping you write articles by showing all search results for query, already opened without advertisment.
 
-> A Vue.js project
+First search is a little longer because backend is on heroku and it needs to start.
+Repo for the backend https://github.com/PeterPorzuczek/content-app-backend
 
-## Build Setup
+Live
+----
+https://peterporzuczek.github.io/content-app-frontend/
+# Preview
+<div>
+	<img src="https://i.imgur.com/OPLatMN.gif" alt="app-preview" width="70%">
+</div>
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+To run application 
+----
+	$ npm install
+	$ npm dev run
